@@ -1,4 +1,4 @@
-# gt3-server-maven-sdk
+# geetest-sdk-test
 
 ## 示例开发环境
 |项目|说明|
@@ -8,10 +8,6 @@
 |maven版本|Apache Maven 3.6.3|
 
 ## 部署流程
-### 下载sdk demo
-```
-git clone https://github.com/GeeTeam/gt3-server-maven-sdk.git
-```
 
 ### 配置密钥，修改请求参数
 > 配置密钥
@@ -43,16 +39,3 @@ index.html|demo示例首页|src/main/webapp/
 
 ### 运行demo
 tomcat部署启动项目，在浏览器中访问`http://localhost:8080`即可看到demo界面。
-
-## 发布日志
-
-### tag：20200528
-- 统一各语言sdk标准
-- 版本：jave-servlet-maven:3.1.0
-
-### tag：20200428
-- 兼容md5、sha256、hmac-sha256算法
-
-### tag：20200402
-- 第一版maven sdk
-
